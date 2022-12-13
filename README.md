@@ -37,3 +37,6 @@ Step 6-After choosing,open that model's python file and change the path to the n
 Step 7-Run the code and get the outputs.
 
 Step 8-Produced O/Ps are the required results.
+
+![image](https://user-images.githubusercontent.com/54600301/207419280-b24aa226-6fb2-443e-80ca-b0eb2f83bc0e.png)
+
