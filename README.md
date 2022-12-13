@@ -22,6 +22,12 @@ id_01-id_11: Numerical features for identity, which is collected by Vesta and se
 DeviceType, DeviceInfo and id_12-id_38: Categorical Features
 
 
+
+                ##First of all download the config.txt file and open the terminal where file is downloaded
+                Then type->
+                pip install -r config.txt
+
+
 Step 1-Open preprocessingdata.py present in the main branch.
 
 Step 2-import the given(I/P) dataset by changing the path in the above file.
