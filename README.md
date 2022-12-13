@@ -1,4 +1,26 @@
 # ML Project
+It's A Fruad .....
+
+In this competition you are predicting whether an online transaction is fraudulent or not
+
+Transaction Features:
+
+TransactionDT: Timedelta from a given reference datetime (not an actual timestamp), but the time difference in seconds from a certain time.
+TransactionAMT: Transaction payment amount in USD, the decimal part is worth paying attention to.
+ProductCD: Product code, the product for each transaction. It may not necessarily be an actual product but may also refer to a service.
+card1-card6: Payment card information, such as card type, card category, issue bank, country, etc.
+addr1-addr2: Address, billing region and billing country
+dist: Distances between (not limited) billing address, mailing address, zip code, IP address, phone area, etc.
+P_ and (R__) emaildomain: Purchaser and recipient email domain, some transactions do not require the recipient, and the corresponding Remaildomain is empty
+C1-C14: Counting, such as how many addresses are found to be associated with the payment card, etc.
+D1-D15: Timedelta, such as days between previous transaction, etc.
+M1-M9: Match, such as names on card and address, etc.
+Vxxx: Vesta engineered rich features, including ranking, counting, and other entity relations. Some V features are missing in different proportions.
+Identity Features:
+
+id_01-id_11: Numerical features for identity, which is collected by Vesta and security partners such as device rating, ip_domain rating, proxy rating, etc. Also it recorded behavioral fingerprint like account login times/failed to login times, how long an account stayed on the page, etc.
+DeviceType, DeviceInfo and id_12-id_38: Categorical Features
+
 
 Step 1-Open preprocessingdata.py present in the main branch.
 
