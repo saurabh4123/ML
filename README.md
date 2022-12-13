@@ -1,7 +1,7 @@
 # ML Project
 It's A Fruad .....
 
-In this competition you are predicting whether an online transaction is fraudulent or not
+In this competition we are predicting whether an online transaction is fraudulent or not
 
 Transaction Features:
 
